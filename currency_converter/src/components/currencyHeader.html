@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Exchange Rates</h1>
+      <ng-container
+        *ngIf="exchangeRate.USD !== 0 && exchangeRate.EUR !== 0; else loading"
+      >
+        <p>
+          Exchange Rate: {{ exchangeRate.USD }} UAH/USD, {{ exchangeRate.EUR }}
+          UAH/EUR
+        </p>
+      </ng-container>
+      <ng-template #loading>
+        <p>Loading...</p>
+      </ng-template>
+    </header>
+  </body>
+</html>
