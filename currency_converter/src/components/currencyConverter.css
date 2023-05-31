@@ -4,9 +4,9 @@ body {
 
 div {
   margin: 20px;
-  border: 1px solid #ccc; /* Добавленная рамочка */
-  padding: 10px; /* Отступы внутри блока */
-  border-radius: 4px; /* Скругление углов */
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
 }
 
 h2 {
@@ -26,7 +26,7 @@ select {
   padding: 5px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  margin-bottom: 5px; /* Отступы между полями */
+  margin-bottom: 5px;
 }
 
 select {
