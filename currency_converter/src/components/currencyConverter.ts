@@ -9,8 +9,8 @@ interface ExchangeRate {
 
 @Component({
   selector: 'app-currency-converter',
-  templateUrl: '../components/currencyConverter.html',
-  styleUrls: ['../components/currencyConverter.css'],
+  templateUrl: './currencyConverter.html',
+  styleUrls: ['../styles.css'],
 })
 export class CurrencyConverterComponent {
   currency1: string = 'UAH';
